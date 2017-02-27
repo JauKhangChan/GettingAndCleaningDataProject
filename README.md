@@ -18,8 +18,8 @@
 * Combine all the subject in Train and Test Dataset and rename the column as "Subject".
 * Combine Data, Activity and Subject into 1 dataset named "allData".
 * Rename the labels with descriptive names.
-** remove all the "-" in the Mean and Standard Deviation columns.
-** remove all the "-()" in all the columns.
+  * remove all the "-" in the Mean and Standard Deviation columns.
+  * remove all the "-()" in all the columns.
 
 ## Step 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 * Group the dataset with the column of Subject and Activity, then find the mean value for column 1 until column 66 (each column represent a variable).
